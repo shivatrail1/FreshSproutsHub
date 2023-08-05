@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresh Sprouts Hub - Your Healthy Choice</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products">Our Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Fresh Sprouts Hub</h1>
+      <p>Your One-Stop Destination for Organic Sprouts</p>
+      <a href="#products" class="cta-btn">Explore Our Sprouts</a>
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about" class="about">
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>
+        Welcome to Fresh Sprouts! We are passionate about providing you with the freshest and healthiest sprouts possible.
+        Our sprouts are grown with love and care, free from harmful chemicals, ensuring you get the best quality for your
+        healthy lifestyle.
+      </p>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <h2 style="text-align: center;">Our Products</h2>
+    <div class="products-container">     
+      <div class="product-card">
+        <img src="./Images/Sprouts1.jpeg" alt="Sprout 1">
+        <h3>Broccoli Sprouts</h3>
+        <p>Rich in nutrients and antioxidants, these tiny greens pack a powerful punch!</p>
+        <a href="#contact" class="cta-btn">Order Now</a>
+      </div>
+      <div class="product-card">
+        <img src="Images/Sprouts2" alt="Sprout 2">
+        <h3>Alfalfa Sprouts</h3>
+        <p>Mild and crunchy, our alfalfa sprouts are perfect for adding to salads and sandwiches.</p>
+        <a href="#contact" class="cta-btn">Order Now</a>
+      </div>
+      <!-- Add more product cards as needed -->
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="contact-container">
+      <h2>Contact Us</h2>
+      <form action="submit_form.php" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Fresh Sprouts. All rights reserved.</p>
+    <p>Designed & Developed by Shivak</p>
+  </footer>
+
+</body>
+</html>
